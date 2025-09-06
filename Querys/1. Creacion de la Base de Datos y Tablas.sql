@@ -16,7 +16,7 @@ create table pasajero(
     telefono varchar(20) not null,
     email varchar(60) not null,
     tipo_documento varchar(15) not null,
-    nro_documento smallint not null,
+    nro_documento int not null,
     fecha_registro datetime default current_timestamp,
     constraint chk_documento check (tipo_documento in ('dni','cuil', 'pasaporte'))
 );

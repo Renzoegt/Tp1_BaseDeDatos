@@ -3,8 +3,8 @@ Específicamos que schema estamos usando*/
 use aerolinea_ez;
 
 /*insertamos un registro en la tabla pasajero*/
-insert into pasajero(nombre, apellido, nacionalidad, telefono, email, tipo_documento, nro_documento) 
-values ('Pedro', 'Goyena', 'Argentino', '3764111111', 'pgoy@gmail.com', 'dni', 11233233);
+insert into pasajero(nombre, apellido, nacionalidad, email, tipo_documento, nro_documento) 
+values ('Pedro', 'Goyena', 'Argentino', 'pgoy@gmail.com', 'dni', 11233233);
 
 /*insertamos un registro en la tabla vuelo*/
 insert into vuelo(avion_id, origen, destino, fecha_salida, fecha_estimada_arribo, combustible, capacidad) 
@@ -21,10 +21,10 @@ values(1,'AirBus', 'A380-800', 2020);
 /*seccion 2*/
 
 /*insertamos varios registros en la tabla pasajero*/
-insert into pasajero(nombre, apellido, nacionalidad, telefono, email, tipo_documento, nro_documento) 
-values ('Renzo', 'Gomez', 'Argentino', '3764111111', 'zamn@gmail.com', 'dni', 99880099),
-('Ramiro', 'Rivero', 'Boliviano', '3765100816', 'ramitabrodi@gmail.com', 'dni', 46237590),
-('Luciano', 'Steinmann', 'Chileno', '3764222222', 'lucho@gmail.com', 'dni', 11111111);
+insert into pasajero(nombre, apellido, nacionalidad, email, tipo_documento, nro_documento) 
+values ('Renzo', 'Gomez', 'Argentino', 'zamn@gmail.com', 'dni', 99880099),
+('Ramiro', 'Rivero', 'Boliviano', 'ramitabrodi@gmail.com', 'dni', 46237590),
+('Luciano', 'Steinmann', 'Chileno', 'lucho@gmail.com', 'dni', 11111111);
 
 /*insertamos varios registros en la tabla vuelo*/
 insert into vuelo(avion_id, origen, destino, fecha_salida, fecha_estimada_arribo, combustible, capacidad) 

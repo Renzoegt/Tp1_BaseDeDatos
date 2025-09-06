@@ -13,7 +13,6 @@ create table pasajero(
     nombre varchar(30) not null,
     apellido varchar (50) not null,
     nacionalidad varchar(30) not null,
-    telefono varchar(20) not null,
     email varchar(60) not null,
     tipo_documento varchar(15) not null,
     nro_documento int not null,

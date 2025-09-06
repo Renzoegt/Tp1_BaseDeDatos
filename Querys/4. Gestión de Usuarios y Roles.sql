@@ -1,7 +1,8 @@
 /*Trabajo Práctico de Renzo Exequiel Gómez Terrussi para la cátedra de Bases de Datos
-Creamos un usuario con permisos de solo lectura sobre toda la base
 (No encontré los comandos en w3School para esto asi que use google, stack overflow y chatGPT para aprender que hacia cada uno)*/
 use aerolinea_ez;
+
+/*Creamos un usuario con permisos de solo lectura sobre toda la base*/
 create user 'usuario_aerolinea'@'localhost' identified by 'Dostoyevski';
 grant select on aerolinea_ez.* to 'usuario_aerolinea'@'localhost';
 

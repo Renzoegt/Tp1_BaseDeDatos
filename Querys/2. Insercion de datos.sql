@@ -4,7 +4,7 @@ use aerolinea_ez;
 
 /*insertamos un registro en la tabla pasajero*/
 insert into pasajero(nombre, apellido, nacionalidad, email, tipo_documento, nro_documento) 
-values ('Pedro', 'Goyena', 'Argentino', 'pgoy@gmail.com', 'dni', 11233233);
+values ('Pedro', 'Gomez', 'Argentino', 'pgoy@gmail.com', 'dni', 11233233);
 
 /*insertamos un registro en la tabla vuelo*/
 insert into vuelo(avion_id, origen, destino, fecha_salida, fecha_estimada_arribo, combustible, capacidad) 
